@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Tabeller</h1>
+
+    <table border="1">
+        <!---OBS! border är obselete-->
+        <tr>
+            <th>Name</th>
+            <th>E-post</th>
+        </tr>
+        <tr>
+            <td>Toshiko</td>
+            <td>toshiko.com</td>
+        </tr>
+    </table>
+
+    <h2>Bilder i en HTML tabell</h2>
+
+    <table>
+        <tr>
+            <td>sushi</td>
+            <td><img src="img/sushi.jpg" alt="sushi" width="200" height="100"></td>
+        </tr>
+    </table>
+
+
+    <h2>Ovning1</h2>
+    <table border="1">
+        <tr><th colspan="2">Schema</th></tr>
+        <tr>
+            <th>Dag</th>
+            <th>Aktivitet</th>
+        </tr>
+        <tr>
+            <td>Måndag</td>
+            <td rowspan="5"> </td>
+        </tr>
+        <tr>
+            <td>Tisdag</td>
+            <!-- <td> </td> -->
+        </tr>
+        <tr>
+            <td>Onsdag</td>
+            <!-- <td> </td> -->
+        </tr>
+        <tr>
+            <td>Torsdag</td>
+            <!-- <td> </td> -->
+        </tr>
+        <tr>
+            <td>Fredag</td>
+            <!-- <td> </td> -->
+        </tr>
+
+    </table>
+
+    <h2>Attributet scope</h2>
+    <table>
+            <tr>
+            <th></th>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
+            </tr>
+            <tr>
+            <th scope="row">Tickets sold:</th>
+            <td>120</td>
+            <td>135</td>
+            </tr>
+            <tr>
+            <th scope="row">Total sales:</th>
+            <td>$600</td>
+            <td>$675</td>
+            </tr>
+            </table>
+   
+
+
+
+    
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Listor</title>
+</head>
+
+<body>
+    <h1>Listor</h1>
+    <h2>Punktlistor (UL)(oordand lista)</h2>
+    <!-- OBS! Typen på UL använder inte längre -->
+    <!-- <ul type="square">
+        <li>Bröd</li>
+        <li>Mjölk</li>
+        <li>Ost</li>
+    </ul> -->
+
+    <h2>Numrerade listor</h2>
+    <ol>
+        <li>Lär dig HTML</li>
+        <li>Lär dig CSS</li>
+        <li>Lär dig JS</li>
+    </ol>
+
+    <ol start="10">
+        <li>Lär dig databaser</li>
+        <li>Lär dig Java</li>
+    </ol>
+
+    <h3>Ändra typ</h3>
+    <ol type="A">
+        <li>Lär dig HTML</li>
+        <li>Lär dig CSS</li>
+        <li>Lär dig JS</li>
+    </ol>
+
+    <ol type="a">
+        <li>Lär dig HTML</li>
+        <li>Lär dig CSS</li>
+        <li>Lär dig JS</li>
+    </ol>
+
+    <ol type="i">
+        <li>Lär dig HTML</li>
+        <li>Lär dig CSS</li>
+        <li>Lär dig JS</li>
+    </ol>
+
+    <ol type="I">
+        <li>Lär dig HTML</li>
+        <li>Lär dig CSS</li>
+        <li>Lär dig JS</li>
+    </ol>
+
+    <h3>Attributet reversed</h3>
+    <!-- Internet exploler fungerar inte -->
+    <ol reversed="reversed">
+        <li>Lär dig HTML</li>
+        <li>Lär dig CSS</li>
+        <li>Lär dig JS</li>
+    </ol>
+
+    <!-- Differences Between HTML and XHTML
+In XHTML, attribute minimization is forbidden, and the reversed attribute must be defined as <ol reversed="reversed">. -->
+
+    <h3>Övning: Visa 2018 i romerska siffror</h3>
+    <blockquote>
+        <ol type="I" start="2018">
+            <li>2018</li>
+        </ol>
+    </blockquote>
+
+    <h2>Definitionslistor (DL)</h2>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+    </dl>
+
+    <h2>Nästlade listor</h2>
+
+    <ul>
+        <li>Coffee</li>
+        <ul>
+            <li>Cappucino</li>
+            <li>latte</li>
+            <li>espresso</li>
+        </ul>
+        <li>tea</li>
+        <ul>
+            <li>Black tea</li>
+            <li>Green tea</li>
+        </ul>
+        </li>
+        <li>Milk</li>
+    </ul>
+</body>
+
+</html>
